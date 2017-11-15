@@ -40,7 +40,7 @@ module Rspec
       end
 
       def failure_message
-        "After #{@tries} tries, the last failure message was:\n#{msg}"
+        "Failed after #{@tries} tries."
       end
 
       def not
