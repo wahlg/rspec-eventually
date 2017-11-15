@@ -40,7 +40,6 @@ module Rspec
       end
 
       def failure_message
-        msg = @custom_msg || @target.try(:failure_message)
         "After #{@tries} tries, the last failure message was:\n#{msg}"
       end
 
